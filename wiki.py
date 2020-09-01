@@ -5,7 +5,7 @@ import webbrowser
 user_input = "No"
 wikipedia.set_rate_limiting(True)
 
-
+#condition
 while user_input =="No":
 
     title = wikipedia.random(pages=1)
