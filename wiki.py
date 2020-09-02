@@ -22,7 +22,7 @@ while user_input =="No":
         #this open up the article page in browser
     elif user_input == "No":
         continue
-
+#else statement for no
     while not (user_input =="Yes") | (user_input =="No") :
         print("You typed {}\n", str(user_input))
         user_input = input("Do you want to read the full article? Yes/No \n")
