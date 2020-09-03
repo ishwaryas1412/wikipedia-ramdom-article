@@ -27,3 +27,4 @@ while user_input =="No":
         print("You typed {}\n", str(user_input))
         user_input = input("Do you want to read the full article? Yes/No \n")
         #making sure that the user input is Yes or No
+#with the exceution for else
