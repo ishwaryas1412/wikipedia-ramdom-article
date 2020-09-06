@@ -7,7 +7,7 @@ wikipedia.set_rate_limiting(True)
 #true for correct execution
 #condition
 while user_input =="No":
-
+       ###RANDOM PAGES
     title = wikipedia.random(pages=1)
     #generate a random article title
     page = wikipedia.page(title)
